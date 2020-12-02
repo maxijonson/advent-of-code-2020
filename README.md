@@ -4,7 +4,15 @@ This contains my solutions to some (probably not all) of the challenges in the A
 
 It is written in TypeScript... because I can!
 
-## [Calendar](calendar)
+### What is the Advent of Code?
+
+Created by [Eric Wastl](https://github.com/topaz), the [Advent of Code](https://adventofcode.com/2020) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.
+
+You don't need a computer science background to participate - just a little programming knowledge and some problem solving skills will get you pretty far. Nor do you need a fancy computer; every problem has a solution that completes in at most 15 seconds on ten-year-old hardware.
+
+### [Calendar](calendar)
+
+**December**
 
 | SU                      | MO                      | TU                      | WE                      | TH                      | FR                      | SA                      |
 | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
