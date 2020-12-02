@@ -1,0 +1,57 @@
+{
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "extends": [
+        "airbnb",
+        "typescript",
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint",
+        "plugin:prettier/recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "import/parsers": {
+            "@typescript-eslint/parser": [".ts"]
+        },
+        "import/resolver": {
+            "typescript": {}
+        },
+        "project": "./tsconfig.json",
+        "sourceType": "module",
+        "tsconfigRootDir": ".",
+        "useJSXTextNode": true
+    },
+    "plugins": ["@typescript-eslint", "prettier"],
+    "rules": {
+        "prettier/prettier": [
+            "warn",
+            {
+                "tabWidth": 4,
+                "useTabs": false,
+                "semi": true,
+                "singleQuote": false,
+                "quoteProps": "consistent",
+                "jsxSingleQuote": false,
+                "trailingComma": "es5",
+                "bracketSpacing": true,
+                "jsxBracketSameLine": false,
+                "arrowParens": "always",
+                "endOfLine": "lf"
+            }
+        ],
+        "spaced-comment": [
+            "warn",
+            "always",
+            {
+                "markers": ["/"]
+            }
+        ]
+    }
+}
