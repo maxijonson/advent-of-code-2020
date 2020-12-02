@@ -4,8 +4,8 @@
   "description": "My solutions to some challenges of the Advent of Code 2020",
   "main": "index.js",
   "scripts": {
-    "d1c1": "ts-node \"Day 1/Challenge 1\"",
-    "d1c2": "ts-node \"Day 1/Challenge 2\""
+    "d1c1": "ts-node \"calendar/day 1/challenge 1\"",
+    "d1c2": "ts-node \"calendar/day 1/challenge 2\""
   },
   "author": "",
   "license": "ISC",

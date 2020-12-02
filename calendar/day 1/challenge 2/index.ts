@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import _ from "lodash";
-import { log } from "../../utils";
+import { log } from "../../../utils";
 import chalk from "chalk";
 
 try {
