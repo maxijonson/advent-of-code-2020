@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "d1c1": "ts-node \"calendar/day 1/challenge 1\"",
-    "d1c2": "ts-node \"calendar/day 1/challenge 2\""
+    "d1c2": "ts-node \"calendar/day 1/challenge 2\"",
+    "d2c1": "ts-node \"calendar/day 2/challenge 1\""
   },
   "author": "",
   "license": "ISC",
