@@ -14,13 +14,13 @@ You don't need a computer science background to participate - just a little prog
 
 **December**
 
-| SU                      | MO                      | TU                      | WE                      | TH                      | FR                      | SA                      |
-| ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
-|                         |                         | [1](calendar/day%201)   | [2](calendar/day%202)   | [3](calendar/day%203)   | [4](calendar/day%204)   | [5](calendar/day%205)   |
-| [6](calendar/day%206)   | [7](calendar/day%207)   | [8](calendar/day%208)   | [9](calendar/day%209)   | [10](calendar/day%2010) | [11](calendar/day%2011) | [12](calendar/day%2012) |
+|           SU            |           MO            |           TU            |           WE            |           TH            |           FR            |           SA            |
+| :---------------------: | :---------------------: | :---------------------: | :---------------------: | :---------------------: | :---------------------: | :---------------------: |
+|                         |                         |  [1](calendar/day%201)  |  [2](calendar/day%202)  |  [3](calendar/day%203)  |  [4](calendar/day%204)  |  [5](calendar/day%205)  |
+|  [6](calendar/day%206)  |  [7](calendar/day%207)  |  [8](calendar/day%208)  |  [9](calendar/day%209)  | [10](calendar/day%2010) | [11](calendar/day%2011) | [12](calendar/day%2012) |
 | [13](calendar/day%2013) | [14](calendar/day%2014) | [15](calendar/day%2015) | [16](calendar/day%2016) | [17](calendar/day%2017) | [18](calendar/day%2018) | [19](calendar/day%2019) |
-| [20](calendar/day%2020) | [21](calendar/day%2021) | [22](calendar/day%2022) | [23](calendar/day%2023) | [24](calendar/day%2024) | [25](calendar/day%2025) | 26                      |
-| 27                      | 28                      | 29                      | 30                      | 31                      |                         |                         |
+| [20](calendar/day%2020) | [21](calendar/day%2021) | [22](calendar/day%2022) | [23](calendar/day%2023) | [24](calendar/day%2024) | [25](calendar/day%2025) |           26            |
+|           27            |           28            |           29            |           30            |           31            |                         |                         |
 
 ### Usage
 
