@@ -12,7 +12,7 @@ You don't need a computer science background to participate - just a little prog
 
 ### Different answers for everyone!
 
-Please take note that the answers to the challenges is different for everyone!
+Please take note that the answers to the challenges are different for everyone!
 
 ### [Calendar](calendar)
 
