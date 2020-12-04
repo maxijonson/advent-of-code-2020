@@ -10,6 +10,10 @@ Created by [Eric Wastl](https://github.com/topaz), the [Advent of Code](https://
 
 You don't need a computer science background to participate - just a little programming knowledge and some problem solving skills will get you pretty far. Nor do you need a fancy computer; every problem has a solution that completes in at most 15 seconds on ten-year-old hardware.
 
+### Different answers for everyone!
+
+Please take note that the answers to the challenges is different for everyone!
+
 ### [Calendar](calendar)
 
 **December**
