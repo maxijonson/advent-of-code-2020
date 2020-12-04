@@ -64,7 +64,7 @@ Starting at the top-left corner of your map and following a slope of right 3 and
 
 ### Approach
 
-Each line in the input represents a row, while each character in a line represents a column. 
+Each line in the input represents a row, while each character in a line represents a column.
 
 We will be looping through each line (row), because `down` = 1. If `down` was 2, then we would be looping through each 2 lines.
 
