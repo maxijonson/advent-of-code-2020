@@ -54,14 +54,14 @@ I made a collection (or dictionnary) of each container colors with the amount of
     "muted yellow": {
         "color": "muted yellow",
         "contains": {
-            "shiny gold" {
+            "shiny gold": {
                 "color": "shiny gold",
                 "amount": 2
             },
-            "faded blue" {
+            "faded blue": {
                 "color": "faded blue",
                 "amount": 9
-            },
+            }
         }
     }
 }
