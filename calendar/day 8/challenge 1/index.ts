@@ -1,6 +1,8 @@
-import fs, { access } from "fs";
+import fs from "fs";
+import os from "os";
 import path from "path";
 import _ from "lodash";
+import eol from "eol";
 import { log } from "../../../utils";
 import chalk from "chalk";
 
@@ -12,10 +14,10 @@ interface Operation {
 
 try {
     const input = fs.readFileSync(path.join(__dirname, "input.txt"));
-    const text = input.toString();
+    const text = eol.auto(input.toString());
 
     const operations = _(text)
-        .split("\r\n")
+        .split(os.EOL)
         .reduce((acc, line) => {
             const [type, valStr] = line.split(" ");
             const positive = valStr[0] == "+";

@@ -1,4 +1,6 @@
-import fs, { access } from "fs";
+import fs from "fs";
+import os from "os";
+import eol from "eol";
 import path from "path";
 import _ from "lodash";
 import { log } from "../../../utils";
@@ -23,10 +25,10 @@ type Bags = { [color: string]: Bag };
 
 try {
     const input = fs.readFileSync(path.join(__dirname, "input.txt"));
-    const text = input.toString();
+    const text = eol.auto(input.toString());
 
     const bagDict = _(text)
-        .split("\r\n")
+        .split(os.EOL)
         .reduce((bags, line) => {
             // Parse container bag color
             const color = line.slice(0, line.indexOf(BAGS_CONTAIN)).trim();

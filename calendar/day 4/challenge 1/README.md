@@ -53,8 +53,6 @@ Count the number of valid passports - those that have all required fields. Treat
 
 ### Approach
 
-Like the day 2 challenge, parsing was longer than checking if the passports were valid. I had to separate passports by blank lines, which took a while to find that `\n\n` does not count as a blank line, apparently. Instead, the expression was `\r\n\r`. Using this expression, I can separate passports with the `;` character and put each passports on a single line, rather than pairs being separated either by spaces or newlines.
-
 After parsing the input into an array of passports, I itterate through them and check if they are valid using the `isValid` function. This function only checks the presence of the required fields on the passport.
 
 ### Answer

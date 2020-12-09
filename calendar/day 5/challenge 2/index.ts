@@ -1,4 +1,6 @@
 import fs from "fs";
+import os from "os";
+import eol from "eol";
 import path from "path";
 import _ from "lodash";
 import { log } from "../../../utils";
@@ -6,8 +8,9 @@ import chalk from "chalk";
 
 try {
     const input = fs.readFileSync(path.join(__dirname, "input.txt"));
-    const text = input.toString();
-    const passes = _(text).split("\r\n").compact().value();
+    const text = eol.auto(input.toString());
+
+    const passes = _(text).split(os.EOL).compact().value();
 
     const seatIds = _.map(passes, (pass) => {
         if (pass.length != 10) {

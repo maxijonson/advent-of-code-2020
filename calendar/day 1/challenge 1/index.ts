@@ -1,4 +1,6 @@
 import fs from "fs";
+import os from "os";
+import eol from "eol";
 import path from "path";
 import _ from "lodash";
 import { log } from "../../../utils";
@@ -6,10 +8,10 @@ import chalk from "chalk";
 
 try {
     const input = fs.readFileSync(path.join(__dirname, "input.txt"));
-    const text = input.toString();
+    const text = eol.auto(input.toString());
 
     const nums = _(text)
-        .split("\n")
+        .split(os.EOL)
         .map((n) => {
             const number = Number(n);
             if (isNaN(number)) {

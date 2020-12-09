@@ -1,4 +1,6 @@
 import fs from "fs";
+import os from "os";
+import eol from "eol";
 import path from "path";
 import _ from "lodash";
 import { log } from "../../../utils";
@@ -17,13 +19,13 @@ const EMPTY = ".";
 
 try {
     const input = fs.readFileSync(path.join(__dirname, "input.txt"));
-    const text = input.toString();
-    const lines = text.split("\n");
+    const text = eol.auto(input.toString());
+    
+    const lines = text.split(os.EOL);
 
     const answer = _.reduce(
         SLOPES,
         (acc, slope, i) => {
-            log.info(`Slope ${i + 1}`);
             const pos = { x: 0, y: 0 };
             let counter = 0;
 
@@ -54,7 +56,6 @@ try {
                 }
             }
 
-            log.info(`${counter}\n`);
             acc *= counter;
             counter = 0;
 
